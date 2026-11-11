@@ -1,0 +1,109 @@
+{
+    "person": "José María",
+    "marriage": {
+        "couple": "MIRNA_ID",
+        "childrens": [
+            {
+                "person": "José Roberto",
+                "marriage": {
+                    "couple": "LILIANA_ID",
+                    "childrens": [
+                        {
+                            "person": "Lucía"
+                        },
+                        {
+                            "person": "Rosario"
+                        },
+                        {
+                            "person": "Facundo"
+                        }
+                    ]
+                }
+            },
+            {
+                "person": "Cristian",
+                "marriage": {
+                    "couple": "LATIA_ID",
+                    "childrens": [
+                        {
+                            "person": "Juan José"
+                        },
+                        {
+                            "person": "Franco"
+                        },
+                        {
+                            "person": "Julián"
+                        }
+                    ]
+                }
+            },
+            {
+                "person": "Nancy",
+                "marriage": {
+                    "couple": "LUIS_ID",
+                    "childrens": [
+                        {
+                            "person": "Enriqueta",
+                            "marriage": {
+                                "couple": "",
+                                "childrens": [
+                                    {
+                                        "person": "Carola"
+                                    },
+                                    {
+                                        "person": "Uma"
+                                    },
+                                    {
+                                        "person": "Clara"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "person": "Alina",
+                            "marriage": {
+                                "couple": "SEBASTIAN_ID",
+                                "childrens": [
+                                    {
+                                        "person": "Hilario"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "person": "Julio"
+                        }
+                    ]
+                }
+            },
+            {
+                "person": "María Edilia",
+                "marriage": {
+                    "couple": "CESAR_ID",
+                    "childrens": [
+                        {
+                            "person": "Juan Pedro"
+                        },
+                        {
+                            "person": "Juan Ignacio",
+                            "marriage": {
+                                "couple": "NATALIA_ID",
+                                "childrens": [
+                                    {
+                                        "person": "Asier"
+                                    },
+                                    {
+                                        "person": "Prima"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "person": "Juan Manuel"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

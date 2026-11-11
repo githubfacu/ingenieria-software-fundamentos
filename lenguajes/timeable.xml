@@ -1,0 +1,92 @@
+<?xml version="1.0" enconde='UTF-8'?>
+<schoolSchedule>
+    <grade>1RO B de Primaria</grade>
+    <date>Marzo 2019</date>
+    <hours>
+        <time id="f1">7:25 - 7:35 A.M.</time>
+        <time id="t1">7:35 - 8:10 A.M.</time>
+        <time id="t2">8:10 - 8:45 A.M.</time>
+        <time id="t3">8:45 - 9:20 A.M.</time>
+        <time id="t4">9:20 - 9:55 A.M.</time>
+        <time id="f2">9:55 - 10:30 A.M.</time>
+        <time id="t5">10:30 - 11:00 A.M.</time>
+        <time id="t6">11:00 - 11:30 A.M.</time>
+        <time id="t7">11:30 - 12:00 A.M.</time>
+    </hours>
+    <freeTimes>
+        <income id="inc" idref="f1">ACTIVIDADES PERMANENTES</income>
+        <recreation id="rec" idref="f2">RECREO</recreation>
+    </freeTimes>
+    <subjects>
+        <subject id="COM">COMUNICACIÓN</subject>
+        <subject id="MAT">MATEMÁTICA</subject>
+        <subject id="RAZ-V">RAZONAMIENTO VERBAL</subject>
+        <subject id="PER">PERSONAL SOCIAL</subject>
+        <subject id="TUT">TUTORÍA</subject>
+        <subject id="EDU-F">EDUCACIÓN FÍSICA</subject>
+        <subject id="ING">INGLÉS</subject>
+        <subject id="ART">ARTE</subject>
+        <subject id="EDU-T">EDUCACIÓN POR EL TRABAJO</subject>
+        <subject id="CYT">CIENCIA Y TECNOLOGÍA</subject>
+        <subject id="PL">PLAN LECTOR</subject>
+        <subject id="RAZ-M">RAZONAMIENTO MATEMÁTICO</subject>
+        <subject id="REL">RELIGIÓN</subject>
+    </subjects>
+    <dayOfTheWeek>
+        <monday>
+            <activity idref="f1"/>
+            <activity idref="t1"><subject idref="COM"></activity>
+            <activity idref="t2"><subject idref="COM"></activity>
+            <activity idref="t3"><subject idref="RAZ-V"></activity>
+            <activity idref="t4"><subject idref="MAT"></activity>
+            <activity idref="f2"/>
+            <activity idref="t5"><subject idref="MAT"></activity>
+            <activity idref="t6"><subject idref="PER"></activity>
+            <activity idref="t7"><subject idref="TUT"></activity>
+        </monday>
+        <tuesday>
+            <activity idref="f1">
+            <activity idref="t1"><subject idref="MAT"></activity>
+            <activity idref="t2"><subject idref="MAT"></activity>
+            <activity idref="t3"><subject idref="EDU-F"></activity>
+            <activity idref="t4"><subject idref="EDU-F"></activity>
+            <activity idref="f2"/>
+            <activity idref="t5"><subject idref="ING"></activity>
+            <activity idref="t6"><subject idref="ING"></activity>
+            <activity idref="t7"><subject idref="PER"></activity>
+        </tuesday>
+        <wednesday>
+            <activity idref="f1">
+            <activity idref="t1"><subject idref="ART"></activity>
+            <activity idref="t2"><subject idref="COM"></activity>
+            <activity idref="t3"><subject idref="MAT"></activity>
+            <activity idref="t4"><subject idref="MAT"></activity>
+            <activity idref="f2"/>
+            <activity idref="t5"><subject idref="EDU-T"></activity>
+            <activity idref="t6"><subject idref="CYT"></activity>
+            <activity idref="t7"><subject idref="CYT"></activity>
+        </wednesday>
+        <thursday>
+            <activity idref="f1">
+            <activity idref="t1"><subject idref="MAT"></activity>
+            <activity idref="t2"><subject idref="MAT"></activity>
+            <activity idref="t3"><subject idref="COM"></activity>
+            <activity idref="t4"><subject idref="COM"></activity>
+            <activity idref="f2"/>
+            <activity idref="t5"><subject idref="CYT"></activity>
+            <activity idref="t6"><subject idref="PL"></activity>
+            <activity idref="t7"><subject idref="ART"></activity>
+        </thursday>
+        <friday>
+            <activity idref="f1">
+            <activity idref="t1"><subject idref="COM"></activity>
+            <activity idref="t2"><subject idref="COM"></activity>
+            <activity idref="t3"><subject idref="RAZ-M"></activity>
+            <activity idref="t4"><subject idref="RAZ-M"></activity>
+            <activity idref="f2"/>
+            <activity idref="t5"><subject idref="RAZ-V"></activity>
+            <activity idref="t6"><subject idref="EDU-T"></activity>
+            <activity idref="t7"><subject idref="REL"></activity>
+        </friday>
+    </dayOfTheWeek>
+</schoolSchedule>
